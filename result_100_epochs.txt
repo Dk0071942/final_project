@@ -1,0 +1,792 @@
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : GIN
+Device: cuda
+Current GNN model: GIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.0051242, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.265310
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.7042030, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.265531
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3836100, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.265768
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2485328, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.270379
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5891086, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.276053
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5445194, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.265347
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3915455, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.264346
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.4566579, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.267676
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0790627, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.262988
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.2472145, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.265175
+---------------- Final Epoch Result ----------------
+Mean: 0.861403, Std: 0.062549
+---------------- Best Epoch: 23 ----------------
+Mean: 0.888889, Std: 0.079744
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'GIN', 'final_epoch_mean': tensor(0.8614), 'final_epoch_std': tensor(0.0625), 'best_epoch_mean': tensor(0.8889), 'best_epoch_std': tensor(0.0797)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : GIN
+Device: cuda
+Current GNN model: GIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6524574, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.262586
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5554631, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.263348
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.4315081, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.264528
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0146826, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.265434
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5872021, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.261206
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1642085, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.261463
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3032718, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.263578
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0671365, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.260357
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0792620, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.261995
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6174946, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.258117
+---------------- Final Epoch Result ----------------
+Mean: 0.830117, Std: 0.091664
+---------------- Best Epoch: 7 ----------------
+Mean: 0.878655, Std: 0.096025
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'GIN', 'final_epoch_mean': tensor(0.8301), 'final_epoch_std': tensor(0.0917), 'best_epoch_mean': tensor(0.8787), 'best_epoch_std': tensor(0.0960)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : GIN
+Device: cuda
+Current GNN model: GIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6130248, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.263995
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.4733752, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.265059
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3676492, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.263498
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5524015, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.263665
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1565918, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.272908
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1338799, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.257822
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0705592, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.265424
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.8799527, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.259837
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.2831606, Val Loss: 0.0000000, Test Acc: 0.9444444, Time: 0.262737
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6411518, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.255114
+---------------- Final Epoch Result ----------------
+Mean: 0.867252, Std: 0.083266
+---------------- Best Epoch: 68 ----------------
+Mean: 0.889181, Std: 0.087333
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'GIN', 'final_epoch_mean': tensor(0.8673), 'final_epoch_std': tensor(0.0833), 'best_epoch_mean': tensor(0.8892), 'best_epoch_std': tensor(0.0873)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : GIN
+Device: cuda
+Current GNN model: GIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1992709, Val Loss: 0.0000000, Test Acc: 1.0000000, Time: 0.262918
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3085934, Val Loss: 0.0000000, Test Acc: 1.0000000, Time: 0.264318
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.9314736, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.250550
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6900801, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.259541
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.4666582, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.264507
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0070562, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.264918
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5451188, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.263028
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.8286380, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.264498
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.2671991, Val Loss: 0.0000000, Test Acc: 0.9444444, Time: 0.263229
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.4904256, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.263023
+---------------- Final Epoch Result ----------------
+Mean: 0.877485, Std: 0.094078
+---------------- Best Epoch: 95 ----------------
+Mean: 0.899123, Std: 0.071983
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'GIN', 'final_epoch_mean': tensor(0.8775), 'final_epoch_std': tensor(0.0941), 'best_epoch_mean': tensor(0.8991), 'best_epoch_std': tensor(0.0720)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : DropGIN
+Device: cuda
+-----------------------------------------------------------------------
+Set the sampling probability and number of runs/samples for the DropGIN
+Mean Degree: 3.005319118499756
+Max Degree: 4
+Min Degree: 3
+Mean number of nodes: 18
+Max number of nodes: 28
+Min number of nodes: 10
+Number of graphs: 188
+Number of runs: 18
+Sampling probability: 0.10526315789473684
+-----------------------------------------------------------------------
+Current GNN model: DropGIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2443030, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.379402
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0440050, Val Loss: 0.0000000, Test Acc: 1.0000000, Time: 0.378038
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6747340, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.382985
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.7178135, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.380406
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2400350, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.378457
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2304595, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.382969
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.3611651, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.379363
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1449737, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.381162
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0038323, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.378356
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3347504, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.377532
+---------------- Final Epoch Result ----------------
+Mean: 0.856725, Std: 0.102009
+---------------- Best Epoch: 12 ----------------
+Mean: 0.868129, Std: 0.082914
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'DropGIN', 'final_epoch_mean': tensor(0.8567), 'final_epoch_std': tensor(0.1020), 'best_epoch_mean': tensor(0.8681), 'best_epoch_std': tensor(0.0829)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : DropGIN
+Device: cuda
+-----------------------------------------------------------------------
+Set the sampling probability and number of runs/samples for the DropGIN
+Mean Degree: 3.005319118499756
+Max Degree: 4
+Min Degree: 3
+Mean number of nodes: 18
+Max number of nodes: 28
+Min number of nodes: 10
+Number of graphs: 188
+Number of runs: 18
+Sampling probability: 0.10526315789473684
+-----------------------------------------------------------------------
+Current GNN model: DropGIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.2567890, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.374637
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0816983, Val Loss: 0.0000000, Test Acc: 1.0000000, Time: 0.372072
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.7829552, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.373616
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.7101212, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.383639
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.8211871, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.372182
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5234634, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.381803
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.3853759, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.372440
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6261233, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.376716
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0986689, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.376462
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.9774057, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.363317
+---------------- Final Epoch Result ----------------
+Mean: 0.850877, Std: 0.082300
+---------------- Best Epoch: 74 ----------------
+Mean: 0.866959, Std: 0.083380
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'DropGIN', 'final_epoch_mean': tensor(0.8509), 'final_epoch_std': tensor(0.0823), 'best_epoch_mean': tensor(0.8670), 'best_epoch_std': tensor(0.0834)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : DropGIN
+Device: cuda
+-----------------------------------------------------------------------
+Set the sampling probability and number of runs/samples for the DropGIN
+Mean Degree: 3.005319118499756
+Max Degree: 4
+Min Degree: 3
+Mean number of nodes: 18
+Max number of nodes: 28
+Min number of nodes: 10
+Number of graphs: 188
+Number of runs: 18
+Sampling probability: 0.10526315789473684
+-----------------------------------------------------------------------
+Current GNN model: DropGIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.3811078, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.377087
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.0642702, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.368789
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0587979, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.375293
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2247256, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.373379
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6399884, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.367941
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.5797065, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.377066
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.3387617, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.377607
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.4122511, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.384686
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.7833203, Val Loss: 0.0000000, Test Acc: 0.6666667, Time: 0.371713
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.0464837, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.367771
+---------------- Final Epoch Result ----------------
+Mean: 0.839766, Std: 0.092637
+---------------- Best Epoch: 6 ----------------
+Mean: 0.872807, Std: 0.089745
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'DropGIN', 'final_epoch_mean': tensor(0.8398), 'final_epoch_std': tensor(0.0926), 'best_epoch_mean': tensor(0.8728), 'best_epoch_std': tensor(0.0897)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : DropGIN
+Device: cuda
+-----------------------------------------------------------------------
+Set the sampling probability and number of runs/samples for the DropGIN
+Mean Degree: 3.005319118499756
+Max Degree: 4
+Min Degree: 3
+Mean number of nodes: 18
+Max number of nodes: 28
+Min number of nodes: 10
+Number of graphs: 188
+Number of runs: 18
+Sampling probability: 0.10526315789473684
+-----------------------------------------------------------------------
+Current GNN model: DropGIN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6771723, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.377990
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.9449409, Val Loss: 0.0000000, Test Acc: 1.0000000, Time: 0.377813
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.7181280, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.379903
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.8425707, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.375824
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2352372, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.377281
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.6256195, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.377896
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 3.3711725, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.378023
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.1202216, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.375857
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 1.5988862, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.378153
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 2.2969244, Val Loss: 0.0000000, Test Acc: 0.9444444, Time: 0.377091
+---------------- Final Epoch Result ----------------
+Mean: 0.867544, Std: 0.082726
+---------------- Best Epoch: 94 ----------------
+Mean: 0.872515, Std: 0.068298
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'DropGIN', 'final_epoch_mean': tensor(0.8675), 'final_epoch_std': tensor(0.0827), 'best_epoch_mean': tensor(0.8725), 'best_epoch_std': tensor(0.0683)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : 1_2_3_GNN
+Device: cuda
+Current GNN model: Net
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2695180, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.048545
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3707269, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.048710
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.4472437, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.048246
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3357719, Val Loss: 0.0000000, Test Acc: 0.6315789, Time: 0.048671
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.1804735, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.048909
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3977672, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.048747
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2756321, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.048908
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2727630, Val Loss: 0.0000000, Test Acc: 0.7222222, Time: 0.049131
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3068008, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.049371
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2940539, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.049039
+---------------- Final Epoch Result ----------------
+Mean: 0.764912, Std: 0.070610
+---------------- Best Epoch: 97 ----------------
+Mean: 0.807018, Std: 0.074330
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': '1_2_3_GNN', 'final_epoch_mean': tensor(0.7649), 'final_epoch_std': tensor(0.0706), 'best_epoch_mean': tensor(0.8070), 'best_epoch_std': tensor(0.0743)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : 1_2_3_GNN
+Device: cuda
+Current GNN model: Net
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3084640, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.048881
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.4101018, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.049694
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3872105, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.054249
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3566334, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.049804
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2810923, Val Loss: 0.0000000, Test Acc: 0.5263158, Time: 0.049117
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.1815083, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.049784
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2423383, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.049097
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2631346, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.048890
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3121915, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.049138
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3286841, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.046533
+---------------- Final Epoch Result ----------------
+Mean: 0.791520, Std: 0.117397
+---------------- Best Epoch: 87 ----------------
+Mean: 0.823684, Std: 0.070365
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': '1_2_3_GNN', 'final_epoch_mean': tensor(0.7915), 'final_epoch_std': tensor(0.1174), 'best_epoch_mean': tensor(0.8237), 'best_epoch_std': tensor(0.0704)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : 1_2_3_GNN
+Device: cuda
+Current GNN model: Net
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2595475, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.048988
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2538067, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.049423
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3261359, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.049776
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3271765, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.048868
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2746520, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.049042
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2687383, Val Loss: 0.0000000, Test Acc: 0.8947368, Time: 0.049165
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3361024, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.051641
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3404828, Val Loss: 0.0000000, Test Acc: 0.7222222, Time: 0.049988
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3370664, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.048988
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2480525, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.048879
+---------------- Final Epoch Result ----------------
+Mean: 0.785965, Std: 0.061609
+---------------- Best Epoch: 70 ----------------
+Mean: 0.807310, Std: 0.068177
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': '1_2_3_GNN', 'final_epoch_mean': tensor(0.7860), 'final_epoch_std': tensor(0.0616), 'best_epoch_mean': tensor(0.8073), 'best_epoch_std': tensor(0.0682)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : 1_2_3_GNN
+Device: cuda
+Current GNN model: Net
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2656165, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.047438
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.4560347, Val Loss: 0.0000000, Test Acc: 0.5263158, Time: 0.049263
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2568220, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.048977
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3152838, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.049113
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3676030, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.048878
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2099507, Val Loss: 0.0000000, Test Acc: 0.9473684, Time: 0.048496
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.6360333, Val Loss: 0.0000000, Test Acc: 0.6315789, Time: 0.046905
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2480509, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.049058
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.3118667, Val Loss: 0.0000000, Test Acc: 0.7777778, Time: 0.049054
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 0.2295499, Val Loss: 0.0000000, Test Acc: 0.8888889, Time: 0.048611
+---------------- Final Epoch Result ----------------
+Mean: 0.771053, Std: 0.149984
+---------------- Best Epoch: 97 ----------------
+Mean: 0.797368, Std: 0.112141
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': '1_2_3_GNN', 'final_epoch_mean': tensor(0.7711), 'final_epoch_std': tensor(0.1500), 'best_epoch_mean': tensor(0.7974), 'best_epoch_std': tensor(0.1121)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : TDGNN
+wd1 : 0.006
+wd2 : 0.006
+wd3 : 0
+early_stopping : 0
+dropout1 : 0.8
+dropout2 : 0.8
+normalize_features : True
+K_TDGNN : 10
+tree_layer : 10
+layers : (1, 2, 3, 4)
+setting : semi
+agg : sum
+tree_decompose : True
+Device: cuda
+Loading finished!
+Current GNN model: TDGNN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6986764, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.094708
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1213440, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.094505
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0946991, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.094348
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6764315, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.094260
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0390390, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.093449
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1987256, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.094290
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.9431288, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.093487
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.4413665, Val Loss: 0.0000000, Test Acc: 0.6315789, Time: 0.094784
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.2183993, Val Loss: 0.0000000, Test Acc: 0.6666667, Time: 0.093683
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1631212, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.095546
+---------------- Final Epoch Result ----------------
+Mean: 0.713158, Std: 0.096274
+---------------- Best Epoch: 35 ----------------
+Mean: 0.750877, Std: 0.107060
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'TDGNN', 'wd1': 0.006, 'wd2': 0.006, 'wd3': 0, 'early_stopping': 0, 'dropout1': 0.8, 'dropout2': 0.8, 'normalize_features': True, 'K_TDGNN': 10, 'tree_layer': 10, 'layers': (1, 2, 3, 4), 'setting': 'semi', 'agg': 'sum', 'tree_decompose': True, 'final_epoch_mean': tensor(0.7132), 'final_epoch_std': tensor(0.0963), 'best_epoch_mean': tensor(0.7509), 'best_epoch_std': tensor(0.1071)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : TDGNN
+wd1 : 0.006
+wd2 : 0.006
+wd3 : 0
+early_stopping : 0
+dropout1 : 0.8
+dropout2 : 0.8
+normalize_features : True
+K_TDGNN : 10
+tree_layer : 10
+layers : (1, 2, 3, 4)
+setting : semi
+agg : sum
+tree_decompose : True
+Device: cuda
+Loading finished!
+Current GNN model: TDGNN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6980581, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.094514
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1213724, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.093982
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0948784, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.103897
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6760449, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.095056
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0390341, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.094581
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1988321, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.094356
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.9430833, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.095287
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.4413454, Val Loss: 0.0000000, Test Acc: 0.6315789, Time: 0.094961
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.2182695, Val Loss: 0.0000000, Test Acc: 0.6666667, Time: 0.093967
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1632978, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.095233
+---------------- Final Epoch Result ----------------
+Mean: 0.713158, Std: 0.096274
+---------------- Best Epoch: 35 ----------------
+Mean: 0.750877, Std: 0.107060
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'TDGNN', 'wd1': 0.006, 'wd2': 0.006, 'wd3': 0, 'early_stopping': 0, 'dropout1': 0.8, 'dropout2': 0.8, 'normalize_features': True, 'K_TDGNN': 10, 'tree_layer': 10, 'layers': (1, 2, 3, 4), 'setting': 'semi', 'agg': 'sum', 'tree_decompose': True, 'final_epoch_mean': tensor(0.7132), 'final_epoch_std': tensor(0.0963), 'best_epoch_mean': tensor(0.7509), 'best_epoch_std': tensor(0.1071)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : TDGNN
+wd1 : 0.006
+wd2 : 0.006
+wd3 : 0
+early_stopping : 0
+dropout1 : 0.8
+dropout2 : 0.8
+normalize_features : True
+K_TDGNN : 10
+tree_layer : 10
+layers : (1, 2, 3, 4)
+setting : semi
+agg : sum
+tree_decompose : True
+Device: cuda
+Loading finished!
+Current GNN model: TDGNN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6981779, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.093464
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1215269, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.094269
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0946939, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.095407
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6765043, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.093846
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0390269, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.095328
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1987984, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.094328
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.9432008, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.094351
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.4413733, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.094451
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.2184017, Val Loss: 0.0000000, Test Acc: 0.6666667, Time: 0.095718
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1630563, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.095158
+---------------- Final Epoch Result ----------------
+Mean: 0.718421, Std: 0.092691
+---------------- Best Epoch: 75 ----------------
+Mean: 0.756140, Std: 0.098630
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'TDGNN', 'wd1': 0.006, 'wd2': 0.006, 'wd3': 0, 'early_stopping': 0, 'dropout1': 0.8, 'dropout2': 0.8, 'normalize_features': True, 'K_TDGNN': 10, 'tree_layer': 10, 'layers': (1, 2, 3, 4), 'setting': 'semi', 'agg': 'sum', 'tree_decompose': True, 'final_epoch_mean': tensor(0.7184), 'final_epoch_std': tensor(0.0927), 'best_epoch_mean': tensor(0.7561), 'best_epoch_std': tensor(0.0986)}
+----------------------------------------------------------------------------------------------------
+Finished
+----------------------------------------------------------------------------------------------------
+Starting new training
+dropout : 0.5
+batch_size : 32
+hidden_units : 16
+lr : 0.01
+num_layers : 4
+use_aux_loss : True
+epochs : 100
+verbose : False
+dataset : MUTAG
+GNN_model : TDGNN
+wd1 : 0.006
+wd2 : 0.006
+wd3 : 0
+early_stopping : 0
+dropout1 : 0.8
+dropout2 : 0.8
+normalize_features : True
+K_TDGNN : 10
+tree_layer : 10
+layers : (1, 2, 3, 4)
+setting : semi
+agg : sum
+tree_decompose : True
+Device: cuda
+Loading finished!
+Current GNN model: TDGNN
+Current dataset: MUTAG
+---------------- Split 0 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6984841, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.097384
+---------------- Split 1 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1211100, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.093705
+---------------- Split 2 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0948941, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.095219
+---------------- Split 3 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.6764413, Val Loss: 0.0000000, Test Acc: 0.5789474, Time: 0.096267
+---------------- Split 4 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.0390066, Val Loss: 0.0000000, Test Acc: 0.7894737, Time: 0.095168
+---------------- Split 5 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1988825, Val Loss: 0.0000000, Test Acc: 0.8421053, Time: 0.095176
+---------------- Split 6 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 4.9430648, Val Loss: 0.0000000, Test Acc: 0.7368421, Time: 0.094021
+---------------- Split 7 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.4193018, Val Loss: 0.0000000, Test Acc: 0.6842105, Time: 0.093585
+---------------- Split 8 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.2184149, Val Loss: 0.0000000, Test Acc: 0.6666667, Time: 0.095828
+---------------- Split 9 ----------------
+Epoch: 100, LR: 0.005000, Train Loss: 5.1632538, Val Loss: 0.0000000, Test Acc: 0.8333333, Time: 0.099080
+---------------- Final Epoch Result ----------------
+Mean: 0.718421, Std: 0.092691
+---------------- Best Epoch: 35 ----------------
+Mean: 0.750877, Std: 0.107060
+----------------------------------------------------------------------------------------------------
+{'dropout': 0.5, 'batch_size': 32, 'hidden_units': 16, 'lr': 0.01, 'num_layers': 4, 'use_aux_loss': True, 'epochs': 100, 'verbose': False, 'dataset': 'MUTAG', 'GNN_model': 'TDGNN', 'wd1': 0.006, 'wd2': 0.006, 'wd3': 0, 'early_stopping': 0, 'dropout1': 0.8, 'dropout2': 0.8, 'normalize_features': True, 'K_TDGNN': 10, 'tree_layer': 10, 'layers': (1, 2, 3, 4), 'setting': 'semi', 'agg': 'sum', 'tree_decompose': True, 'final_epoch_mean': tensor(0.7184), 'final_epoch_std': tensor(0.0927), 'best_epoch_mean': tensor(0.7509), 'best_epoch_std': tensor(0.1071)}
+----------------------------------------------------------------------------------------------------
+Finished
